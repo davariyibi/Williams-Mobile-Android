@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/home"
+        android:title="@string/home"/>
+    <item android:id="@+id/facebook"
+        android:title="@string/facebook" />
+    <item android:id="@+id/factrak"
+        android:title="@string/factrak" />
+    <item android:id="@+id/dormtrak"
+        android:title="@string/dormtrak" />
+    <item android:id="@+id/listserv"
+        android:title="@string/listserv" />
+    <item android:id="@+id/wiki"
+        android:title="@string/wiki" />
+    <item android:id="@+id/about"
+        android:title="@string/about" />
+    <item android:id="@+id/logout"
+        android:title="@string/logout" />
+</menu>

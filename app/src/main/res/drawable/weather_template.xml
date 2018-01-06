@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:divider="?android:dividerHorizontal"
+        android:orientation="vertical"
+        android:showDividers="middle"
+        android:weightSum="1">
+
+        <android.support.v7.widget.CardView xmlns:card_view="http://schemas.android.com/apk/res-auto"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:background="@drawable/buttonborder"
+            android:paddingBottom="15dp"
+            android:paddingLeft="15dp"
+            android:paddingRight="15dp"
+            android:paddingTop="15dp"
+            card_view:cardBackgroundColor="#20000000"
+            card_view:cardUseCompatPadding="true">
+
+            <LinearLayout
+                android:id="@+id/forecast"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="4.67"
+                android:weightSum="1">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:id="@+id/weatherIcon"
+                        android:layout_width="115dp"
+                        android:layout_height="115dp"
+                        android:layout_centerHorizontal="true"
+                        android:padding="@dimen/cardview_default_radius"
+                        android:paddingLeft="2dp" />
+
+                    <!--<Button-->
+                    <!--android:id="@+id/forecastButton"-->
+                    <!--android:layout_width="match_parent"-->
+                    <!--android:layout_height="40dp"-->
+                    <!--android:layout_weight="1"-->
+                    <!--android:fontFamily="serif"-->
+                    <!--android:text="@string/forecast"-->
+                    <!--android:textAlignment="center"-->
+                    <!--android:textAllCaps="false"-->
+                    <!--android:textColor="#000000"-->
+                    <!--android:textSize="14sp"-->
+                    <!--android:textStyle="bold" />-->
+                </LinearLayout>
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="?android:selectableItemBackground"
+                    android:padding="10dp">
+
+                    <LinearLayout
+                        android:id="@+id/weatherInfo"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textColor="#512698"
+                        android:weightSum="1">
+
+                        <TextView
+                            android:id="@+id/temperature"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_centerHorizontal="false"
+                            android:fontFamily="serif"
+                            android:textColor="@android:color/black"
+                            android:textSize="28sp" />
+
+                        <TextView
+                            android:id="@+id/location"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_centerHorizontal="false"
+                            android:fontFamily="serif"
+                            android:textColor="@android:color/black"
+                            android:textSize="18sp" />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:id="@+id/condDescr"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/weatherInfo"
+                        android:weightSum="1">
+
+                        <!--<TextView-->
+                        <!--android:id="@+id/condition"-->
+                        <!--android:layout_width="wrap_content"-->
+                        <!--android:layout_height="wrap_content"-->
+                        <!--android:layout_centerHorizontal="false"-->
+                        <!--android:fontFamily="serif"-->
+                        <!--android:textAlignment="textStart"-->
+                        <!--android:textColor="@android:color/black"-->
+                        <!--android:textSize="18sp"-->
+                        <!--android:textStyle="italic" />-->
+
+                        <TextView
+                            android:id="@+id/description"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_centerHorizontal="false"
+                            android:fontFamily="serif"
+                            android:textAlignment="textStart"
+                            android:textColor="@android:color/black"
+                            android:textSize="18sp"
+                            android:textStyle="italic" />
+
+                    </LinearLayout>
+
+                    <!--<TextView-->
+                    <!--android:id="@+id/pressure"-->
+                    <!--android:layout_width="wrap_content"-->
+                    <!--android:layout_height="wrap_content"-->
+                    <!--android:layout_below="@id/humidity"-->
+                    <!--android:layout_centerHorizontal="false"-->
+                    <!--android:fontFamily="serif"-->
+                    <!--android:textAlignment="textStart"-->
+                    <!--android:textColor="@android:color/black"-->
+                    <!--android:textSize="12sp" />-->
+
+                    <TextView
+                        android:id="@+id/humidity"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/condDescr"
+                        android:layout_centerHorizontal="false"
+                        android:fontFamily="serif"
+                        android:textAlignment="textStart"
+                        android:textColor="@android:color/black"
+                        android:textSize="12sp" />
+
+                    <TextView
+                        android:id="@+id/wind"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/humidity"
+                        android:layout_centerHorizontal="false"
+                        android:fontFamily="serif"
+                        android:textAlignment="textStart"
+                        android:textColor="@android:color/black"
+                        android:textSize="12sp" />
+
+                    <!--<TextView-->
+                    <!--android:id="@+id/windDegree"-->
+                    <!--android:layout_width="wrap_content"-->
+                    <!--android:layout_height="wrap_content"-->
+                    <!--android:layout_below="@id/windSpeed"-->
+                    <!--android:layout_centerHorizontal="false"-->
+                    <!--android:fontFamily="serif"-->
+                    <!--android:textAlignment="textStart"-->
+                    <!--android:textColor="@android:color/black"-->
+                    <!--android:textSize="12sp" />-->
+
+                </RelativeLayout>
+
+            </LinearLayout>
+
+            <!--<TextView-->
+            <!--android:id="@+id/weatherTitle"-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:fontFamily="serif"-->
+            <!--android:text="@string/weather"-->
+            <!--android:textColor="#512698"-->
+            <!--android:textSize="20sp" />-->
+
+            <!--<View-->
+            <!--android:id="@+id/view2"-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="0dp"-->
+            <!--android:background="@android:color/transparent" />-->
+
+
+            <!--<View-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="2dp"-->
+            <!--android:background="@android:color/transparent"/>-->
+
+
+            <!--<android.support.v7.widget.RecyclerView-->
+            <!--android:id="@+id/current_forecast"-->
+            <!--android:orientation="horizontal"-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content" />-->
+
+            <!--"349dp"-->
+        </android.support.v7.widget.CardView>
+    </LinearLayout>
+
+</selector>
