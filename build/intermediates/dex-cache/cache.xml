@@ -38,6 +38,15 @@
         <dex dex="C:\Users\David\Dropbox\Williams Mobile\WSO - Copy\WSO - Copy\app\build\intermediates\pre-dexed\debug\constraint-layout-solver-1.0.2_bd7dc31a88f3e373b1dc677673e7184b0b3bc449.jar" />
     </item>
     <item
+        is-multidex="true"
+        jar="C:\Users\David\Dropbox\School\College\Extra Curriculars\App\Williams-Mobile-Android\app\libs\jsoup-1.10.2.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="61f84a97f1a4f5905547b8b74afff8dc93f4cfce">
+        <dex dex="C:\Users\David\Dropbox\School\College\Extra Curriculars\App\Williams-Mobile-Android\app\build\intermediates\transforms\dex\debug\folders\1000\2\jsoup-1.10.2_baeb0d1051f087fb6e47e2697dab9817d728f4d1\classes.dex" />
+    </item>
+    <item
         is-multidex="false"
         jar="C:\Users\David\.android\build-cache\609bbde50bb33d1d41c3684bcaeef574f4511a35\output\jars\classes.jar"
         jumboMode="false"
@@ -110,6 +119,15 @@
         <dex dex="C:\Users\David\Dropbox\Williams Mobile\WSO - Copy\WSO - Copy\app\build\intermediates\pre-dexed\debug\classes_8b3fef8b296f4c25e7463bd6f34d2ed974d58a64.jar" />
     </item>
     <item
+        is-multidex="true"
+        jar="C:\Users\David\Dropbox\School\College\Extra Curriculars\App\Williams-Mobile-Android\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="c383102f2618614cb2e7f3027d3690937f9ed047">
+        <dex dex="C:\Users\David\Dropbox\School\College\Extra Curriculars\App\Williams-Mobile-Android\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run-bootstrap_3fc6b80fc54437e0d0fc262124bb30d172d5c834\classes.dex" />
+    </item>
+    <item
         is-multidex="false"
         jar="C:\Users\David\.android\build-cache\d8a3f9b82ce734405aa9db04e720f18c7e4c613e\output\jars\classes.jar"
         jumboMode="false"
@@ -135,6 +153,15 @@
         revision="25.0.2"
         sha1="150252b33b00274cc868578ade018fda0d43a3eb">
         <dex dex="C:\Users\David\Dropbox\Williams Mobile\WSO - Copy\WSO - Copy\app\build\intermediates\pre-dexed\debug\classes_3f6071b0f97457600da440e9c952fc1daa88df03.jar" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\David\Dropbox\School\College\Extra Curriculars\App\Williams-Mobile-Android\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="3be78ebc2706b2e1fe2f12d5726887a92d6c183b">
+        <dex dex="C:\Users\David\Dropbox\School\College\Extra Curriculars\App\Williams-Mobile-Android\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run_a1a9fbd99593d5c1b1808f24e64abc9dcf4c5323\classes.dex" />
     </item>
     <item
         is-multidex="false"
